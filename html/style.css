@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu {
+  position: absolute;
+  width: 58vw;
+  background-color: black;
+  height: 38vw;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: .4vw;
+  box-shadow: .0vw .0vw .5vw black;
+}
+
+.leftSide {
+  position: absolute;
+  width: 46%;
+  /* background-color: red; */
+  height: 100%;
+}
+
+.leftSide h1 {
+  margin: 2vw .5vw 2vw .5vw;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 3vw;
+  text-align: center;
+  border-bottom: .2vw solid white;
+}
+
+.Services {
+  position: absolute;
+  /* background-color: blue; */
+  width: 20vw;
+  height: 20vw;
+  top: 60%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.button {
+  background-color: black;
+  width: 14vw;
+  height: 3vw;
+  margin: 2vw;
+  padding: .5vw;
+  border-radius: .2vw;
+ border: .1vw solid white;
+}
+
+.button:hover {
+  border: .1vw solid white;
+  cursor: pointer;
+  box-shadow: .0vw .0vw .5vw white;
+  scale: 1.1;
+}
+
+.button h2 {
+  font-size: 1.5vw;
+  font-family: 'Poppins';
+  color: white;
+  position: relative;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+}
+
+.leftSide p {
+  color: white;
+  font-family: 'Poppins';
+  text-align: center;
+  margin: .5vw;
+}
+
+.rightSide {
+  position: absolute;
+  right: 0vw;
+  width: 54%;
+  height: 100%;
+}
+
+.rightSide img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
